@@ -27,6 +27,7 @@ console.log(set1.has({name: 'john'}));
 
 // delete from set
 set1.delete(100);
+set1.delete(true);
 
 console.log(set1);
 
